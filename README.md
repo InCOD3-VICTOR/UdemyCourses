@@ -1,5 +1,5 @@
 # UdemyCourses
-A central place I can upload and save work done via Udemy 
+A central place where I can upload and save work done via Udemy Courses.  
 
 ![Alt Text](https://media.giphy.com/media/5ndklThG9vUUdTmgMn/giphy.gif)
 
