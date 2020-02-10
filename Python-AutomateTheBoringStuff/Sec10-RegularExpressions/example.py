@@ -16,4 +16,14 @@ def isPhoneNumber(text): #415-555-5555
                 return False #missing last 4 digits
     return True 
 
-print(isPhoneNumber('510-550-0555'))
+message = 'Call me at 415-555-1011 tomorrow. or at 710-644-3825 for my office line.'
+foundNumber = False
+for i in range(len(message)):
+    chunk = message[i:i+12]
+    if isPhoneNumber(chunk):
+        print('Phone number found: ' + chunk)
+        foundNumber = True
+if not foundNumber:
+    print('Could not find any phone numbers.') 
+        
+
